@@ -1,0 +1,152 @@
+.demo-table {
+    width: 50%;
+  }
+  
+  .demo-button-container {
+    justify-content: flex-end; /* Aligns items to the right */
+    padding-bottom: 16px;
+    margin-left: 80%;
+
+  }
+  
+  .demo-button + .demo-button {
+    
+    margin-left: 8px;
+    color: rgb(245, 239, 239);
+    background-color: rgb(66, 66, 199);
+  }
+
+  
+  
+  .padding-bottom-none {
+    padding-bottom: 0 !important;
+  }
+  
+  .padding-top-none {
+    padding-top: 0 !important;
+  }
+  
+  .padding-1-present {
+    padding: 1% !important;
+  }
+  
+  .padding-3-present {
+    padding: 3% !important;
+  }
+  .padding-none {
+    padding: 0 !important;
+  }
+  
+  .form-control {
+    display: block;
+    width: 200%;
+    margin-bottom: 10px;
+  }
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f7f7f7;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #e0e0e0;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .icon-blue {
+    color: blue;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .icon-yellow {
+    color: yellow;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .icon-red {
+    color: red;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .mat-icon {
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .icon-blue {
+    color: blue;
+    font-size: 18px; /* Custom size for blue icon */
+  }
+  
+  .icon-yellow {
+    color: yellow;
+    font-size: 18px; /* Custom size for yellow icon */
+  }
+  
+  .icon-red {
+    color: red;
+    font-size: 18px; /* Custom size for red icon */
+  }
+
+  .sidebar {
+    width: 80px;
+    background-color: #2c3e50; /* Dark blue background */
+    height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dashboard-icon, .config-icon {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-item span {
+    font-size: 14px;
+  }
+  .sidebar-item:hover {
+    background-color: #34495e; /* Slightly lighter blue on hover */
+    border-radius: 4px; /* Optional rounded corners */
+  }
+    
+    

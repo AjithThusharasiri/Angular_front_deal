@@ -1,0 +1,231 @@
+.main-sidebar {
+    width: 99.99%;
+    height: 100%;
+    transition: width 0.3s;
+}
+
+@media (max-width: 768px) {
+    .main-sidebar {
+        width: 100%;
+    }
+}
+
+.mat-toolbar.mat-primary {
+    --mat-toolbar-container-background-color: #25283f;
+    --mat-toolbar-container-text-color: white;
+}
+
+.toolbar-item-spacer {
+    flex: 1 1 auto;
+}
+.toolbar-item-crm {
+    margin-right: 800px;
+    justify-content: flex-start; 
+}
+
+.app-sidenav {
+    width: 100px;
+}
+
+.mat-expansion-panel-header {
+    background-color: #25283f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    border-radius: inherit;
+    transition: height 225ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: var(--mat-expansion-header-collapsed-state-height);
+    font-family: var(--mat-expansion-header-text-font);
+    font-size: var(--mat-expansion-header-text-size);
+    font-weight: var(--mat-expansion-header-text-weight);
+    line-height: var(--mat-expansion-header-text-line-height);
+    letter-spacing: var(--mat-expansion-header-text-tracking);
+}
+
+.mat-drawer-side {
+    background-color: #25283f;
+    box-shadow: none;
+    border-right-color: var(--mat-sidenav-container-divider-color);
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.mat-expansion-panel {
+    --mat-expansion-container-shape: 4px;
+    box-sizing: content-box;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    transition: margin 225ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    background: #454a4c;
+    color: white;
+    border-radius: var(--mat-expansion-container-shape);
+}
+
+
+.mat-expansion-panel-header[aria-disabled=true] {
+    color: white;
+}
+
+.mat-mdc-list-base {
+    --mdc-list-list-item-label-text-color: rgb(246 242 242 / 87%);
+    --mdc-list-list-item-supporting-text-color: rgba(235, 191, 191, 0.54);
+    --mdc-list-list-item-leading-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-list-list-item-trailing-supporting-text-color: rgba(0, 0, 0, 0.38);
+    --mdc-list-list-item-trailing-icon-color: rgba(255, 255, 255, 0.38);
+    --mdc-list-list-item-selected-trailing-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-list-list-item-disabled-label-text-color: black;
+    --mdc-list-list-item-disabled-leading-icon-color: black;
+    --mdc-list-list-item-disabled-trailing-icon-color: black;
+    --mdc-list-list-item-hover-label-text-color: rgba(0, 0, 0, 0.87);
+    --mdc-list-list-item-hover-leading-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-list-list-item-hover-trailing-icon-color: rgba(0, 0, 0, 0.38);
+    --mdc-list-list-item-focus-label-text-color: rgba(255, 255, 255, 0.87);
+    --mdc-list-list-item-hover-state-layer-color: rgb(9, 112, 61);
+    --mdc-list-list-item-hover-state-layer-opacity: 0.04;
+    --mdc-list-list-item-focus-state-layer-color: #3c8dbc;
+    --mdc-list-list-item-focus-state-layer-opacity: 0.12;
+}
+
+.mat-mdc-list-base {
+    --mdc-list-list-item-one-line-container-height: 35px;
+    --mdc-list-list-item-two-line-container-height: 40px;
+    --mdc-list-list-item-three-line-container-height: 20px;
+}
+
+::ng-deep .mat-expansion-indicator::after {
+    color: white !important;
+}
+
+::ng-deep .mat-list-item-content {
+    font-size: 14px;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+    height: 45px;
+}
+
+.mat-mdc-list-base[_ngcontent-ng-c1511210593] {
+    --mdc-list-list-item-one-line-container-height: 34px;
+    --mdc-list-list-item-two-line-container-height: 40px;
+    --mdc-list-list-item-three-line-container-height: 10px;
+}
+
+.menu-icon {
+    margin-left: 15px;
+}
+
+.mat-mdc-list-base {
+    --mdc-list-list-item-label-text-font: Roboto, sans-serif;
+    --mdc-list-list-item-label-text-line-height: 24px;
+    --mdc-list-list-item-label-text-size: 13px;
+    --mdc-list-list-item-label-text-tracking: 0.03125em;
+    --mdc-list-list-item-label-text-weight: 400;
+    --mdc-list-list-item-supporting-text-font: Roboto, sans-serif;
+    --mdc-list-list-item-supporting-text-line-height: 20px;
+    --mdc-list-list-item-supporting-text-size: 14px;
+    --mdc-list-list-item-supporting-text-tracking: 0.0178571429em;
+    --mdc-list-list-item-supporting-text-weight: 400;
+    --mdc-list-list-item-trailing-supporting-text-font: Roboto, sans-serif;
+    --mdc-list-list-item-trailing-supporting-text-line-height: 20px;
+    --mdc-list-list-item-trailing-supporting-text-size: 12px;
+    --mdc-list-list-item-trailing-supporting-text-tracking: 0.0333333333em;
+    --mdc-list-list-item-trailing-supporting-text-weight: 400;
+}
+
+.mdc-list-item__primary-text {
+    font-family: var(--mdc-list-list-item-label-text-font);
+    line-height: var(--mdc-list-list-item-label-text-line-height);
+    font-size: var(--mdc-list-list-item-label-text-size);
+    font-weight: var(--mdc-list-list-item-label-text-weight);
+    letter-spacing: var(--mdc-list-list-item-label-text-tracking);
+}
+
+html {
+    --mat-expansion-header-collapsed-state-height: 48px;
+    --mat-expansion-header-expanded-state-height: 34px;
+}
+
+.mat-expansion-panel-header.mat-expanded {
+    height: 35px;
+}
+
+.app-container {
+    min-height: 95vh;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+}
+
+.mat-icon {
+    margin-right: 6px;
+    height: 21px;
+    width: 27px;
+}
+
+.mat-menu-panel {
+    background-color: #3c8dbc !important;
+    border: none;
+}
+
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  mat-icon {
+    font-size: 24px; 
+  }
+  
+  .header-text {
+    margin-top: 4px; 
+    margin-right: 17px;
+    font-size: 10px; 
+  }
+  .company-name{
+    font-size: 12px;;
+  }
+  .line{
+    margin-right: 2px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    background-color: #25283f; 
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .logo-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px; 
+    color: #ffffff; 
+    font-weight: 300; 
+    letter-spacing: 2px;
+  }
+  
+  .highlight {
+    color: #e6ecf0; 
+    font-weight: 600; 
+    font-size: 28px; 
+  }
+  .move-left {
+    margin-right: 8px;
+  }
+  
+  .move-left {
+    transform: translateX(-8px); 
+  }
+  .move{
+    margin-right: 5px;
+  }
+  
+  .move {
+    transform: translateX(-5px); 
+  }
+  
